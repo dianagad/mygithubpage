@@ -74,8 +74,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Grayscale</h1>
-                        <p class="intro-text">A free, responsive, one page Bootstrap theme.<br>Created by Start Bootstrap.</p>
+                        <h1 class="brand-heading">isLog</h1>
+                        <p class="intro-text">Mechanical Verification in Isabelle using Powerlists<br>MSc Artificial Intelligence</p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -89,10 +89,32 @@
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Grayscale</h2>
-                <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+                <h2>About the Project</h2>
+                <p>Over the past few years, with the development of larger and more complex problems,
+                  the speed of computation and the management of complexity has become a basic problem
+                  in programming. So, Parallel Computing was introduced in order to develop a
+                  solution to optimize the time to completion by using multiple computing resources
+                  simultaneously especially to provide concurrency and save time or money. </p>
+                <p>Nowadays, the access to multicore computers makes it easy to improve the performance
+                  in a sequential programming language making the process of parallelization complicated.
+                  But there has been work on the design of parallel programs and rules reasoning
+                  about them have been developed <a href="http://dl.acm.org/citation.cfm?id=59087">[Parallel Program Design]</a>.</p>
+                <p>With these improvements and demands it is essential to make sure that parallel
+                  software works properly. This can be done with formal and mechanical verification,
+                  which can identify problems in early stages of the development and test both parallel
+                  algorithm and software used in embedded devices, multimedia and streaming applications
+                  and real-time systems like Air Traffic Control Systems, Networked Multimedia
+                  Systems and Command Control Systems. </p>
+                <p>The purpose of the project is to formalise the powerlist data structure proposed by
+                  Misra <a href="http://www.cs.utexas.edu/users/psp/powerlist.pdf">[Powerlist]</a>
+                  in Isabelle in order to mechanically verify the correctness of the Fast Fourier
+                  Transform and possibly other algorithms based on the divide and conquer strategy and
+                  compare the resulting development to the provers RRL
+                  <a href="http://www.sciencedirect.com/science/article/pii/089812219400218A">[An overview of Rewrite Rule Laboratory (RRL)]</a>,
+                  ACL2 <a href="https://www.researchgate.net/publication/220532462_A_Formalization_of_Powerlist_Algebra_in_ACL2">[A Formalization of Powerlist Algebra in ACL2]</a>
+                  and Coq <a href="http://www.univ-orleans.fr/lifo/prodsci/rapports/RR/RR2013/RR-2013-02.pdf">[Programming and Reasonning with PowerLists in Coq]</a>,
+                  showing the benefits and the difficulties of the formalisation and reasoning.</p>
+
             </div>
         </div>
     </section>
@@ -102,44 +124,18 @@
         <div class="download-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
+                    <h2>Repo of the project</h2>
                     <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                    <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Start Bootstrap</h2>
-                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Map Section -->
-    <div id="map"></div>
-
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Your Website 2014</p>
+            <p>Diana Gamez &copy; MSc Artificial Intelligence Dissertation 2015</p>
         </div>
     </footer>
 
@@ -151,9 +147,6 @@
 
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
